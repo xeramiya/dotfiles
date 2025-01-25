@@ -7,7 +7,7 @@ with [chezmoi](https://www.chezmoi.io/)
 ### セットアップ
 
 ```
-chezmoi init --apply xeramiya
+chezmoi init --apply --ssh xeramiya
 ```
 
 ### 日常作業

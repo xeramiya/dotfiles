@@ -9,8 +9,6 @@ name = "xeramiya"
 email = ""
 EOF
 
-EDITOR=$(chezmoi data | jq -r ".chezmoi.config.edit.command")
-ARGS=$(chezmoi data | jq -r ".chezmoi.config.edit.args" | jq -r 'join(" ")')
-${EDITOR} ${ARGS} ${USERDATA_FILE}
+zed --wait ${USERDATA_FILE}
 
 echo もう一度「chezmoi apply」を実行して、dataをテンプレートに反映させてねん
