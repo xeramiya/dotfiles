@@ -21,3 +21,8 @@ chezmoi re-add
 ```
 
 [もっとkwsk](https://www.chezmoi.io/user-guide/command-overview/)
+
+## メモ
+
+- `.gitconfig`のテンプレート反映のために初回および`tuning.sh`変更時は`apply`コマンドは2回実行する必要がある
+  - めんd
