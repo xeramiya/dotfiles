@@ -1,6 +1,7 @@
 # Time to remix dwfaults and change lines.
 autoload -Uz colors && colors
-PROMPT="%F{cyan}%n%f: %F{green}%~%f"$'\n'"%# "
+autoload -Uz compinit && compinit
+autoload -Uz vcs_info
 
 function precmd() {
     if [ -z "$NEW_LINE_BEFORE_PROMPT" ]; then
@@ -9,3 +10,5 @@ function precmd() {
         echo ""
     fi
 }
+
+PROMPT=$'%F{cyan}%n%f: %F{green}%~%f \n%# '
