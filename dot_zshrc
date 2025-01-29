@@ -1,3 +1,7 @@
+# Volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
 # Time to remix dwfaults and change lines.
 autoload -Uz colors && colors
 autoload -Uz compinit && compinit
