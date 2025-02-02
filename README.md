@@ -13,7 +13,7 @@ chezmoi init --apply --ssh xeramiya
 ### 日常作業
 
 ```
-chzmoi update -v
+chezmoi update -v
 ```
 
 ```
