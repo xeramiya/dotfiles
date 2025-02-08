@@ -38,6 +38,7 @@
   },
   "tab_size": 2,
   "terminal": {
+    "blinking": "on",
     "font_family": "JetBrains Mono",
     "font_size": 16,
     "line_height": "standard",
@@ -53,5 +54,5 @@
   "outline_panel": {
     "indent_size": 16,
     "auto_fold_dirs": false
-  },
+  }
 }
