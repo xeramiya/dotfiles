@@ -54,5 +54,14 @@
   "outline_panel": {
     "indent_size": 16,
     "auto_fold_dirs": false
+  },
+  "experimental.theme_overrides": {
+    "terminal.background": "#16191B",
+    "terminal.foreground": "#FF7C00",
+    "players": [
+      {
+        "cursor": "#FFFFFF"
+      }
+    ]
   }
 }
