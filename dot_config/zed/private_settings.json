@@ -36,6 +36,7 @@
   "journal": {
     "hour_format": "hour24"
   },
+  "show_whitespaces": "none",
   "tab_size": 2,
   "terminal": {
     "blinking": "on",
