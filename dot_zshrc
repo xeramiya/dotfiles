@@ -16,3 +16,7 @@ function precmd() {
 }
 
 PROMPT=$'%F{cyan}%n%f: %F{green}%~%f \n%# '
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/seiya_tanaka/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

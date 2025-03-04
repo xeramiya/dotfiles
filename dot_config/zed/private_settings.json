@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "buffer_font_family": "JetBrains Mono",
   "buffer_font_fallbacks": ["BIZ UDGothic"],
   "buffer_font_features": {
@@ -47,7 +54,7 @@
       "calt": false
     }
   },
-  "theme": "One Dark",
+  "theme": "Ayu Mirage",
   "project_panel": {
     "indent_size": 16,
     "auto_fold_dirs": false
